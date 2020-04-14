@@ -8,10 +8,7 @@ These documents complement the paper *Learning the Shape: Differential Machine L
 
 We also posted a working TensorFlow implementation [here](https://differential-machine-learning.github.io/notebooks/), including code, practical implementation considerations and extensions. 
 
-<p align="center">
+<p align="center">  
   <img src="differential.png">
+  https://github.com/differential-machine-learning
 </p>
-
-
- 
-
