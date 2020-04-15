@@ -28,7 +28,19 @@ The video tutorial below introduces its core ideas in 15 minutes (click on the p
 
 <p align="center">
   
-![Watch the video](https://img.youtube.com/vi/IcQkwgPwfm4/maxresdefault.jpg)](https://youtu.be/IcQkwgPwfm4)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IcQkwgPwfm4
+" target="_blank"><img src="http://img.youtube.com/vi/IcQkwgPwfm4/0.jpg" 
+alt="AAD explained in 15 minutes by Antoine Savine" width="240" height="180" border="10" /></a>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+[![Watch the video](https://img.youtube.com/vi/IcQkwgPwfm4/maxresdefault.jpg)](https://youtu.be/IcQkwgPwfm4)
 
 </p>
 
