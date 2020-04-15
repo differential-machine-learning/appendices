@@ -6,7 +6,7 @@ These documents complement the paper *Learning the Shape: Differential Machine L
 
 [**DifferentialRegression.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/DifferentialRegression.pdf) derives the svd regression formulas for standard, ridge and differential regression, based on eigenvalue decomposition. These formulas are implemented verbatim in the notebook [DifferentialRegression.ipynb](https://github.com/differential-machine-learning/notebooks/blob/master/DifferentialRegression.ipynb).
 
-We also posted a working TensorFlow implementation [here](https://differential-machine-learning.github.io/notebooks/), including code, practical implementation considerations and extensions. 
+We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details. 
 
 ***Automatic Adjoint Differentiation (AAD)***
 
