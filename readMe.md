@@ -11,7 +11,8 @@ We also posted [here](https://differential-machine-learning.github.io/notebooks/
 [github.com/differential-machine-learning](https://github.com/differential-machine-learning)
 <img src="differential.png">
 
-***Automatic Adjoint Differentiation (AAD)***
+# Automatic Adjoint Differentiation (AAD)
+---
 
 Everything in the Risk paper and its complements relies on *differential labels*, the gradients of training labels to training inputs, fed to the machine learning model in an augmented dataset. We have seen that training on differentials offers a massive performance improvement, but, of course, the differential labels must be computed first.
 
