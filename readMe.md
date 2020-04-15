@@ -36,7 +36,3 @@ The video tutorial below introduces its core ideas in 15 minutes:
 
 [github.com/differential-machine-learning](https://github.com/differential-machine-learning)
 <img src="differential.png">
-
-
-[github.com/differential-machine-learning](https://github.com/differential-machine-learning)
-<img src="differential.png">
