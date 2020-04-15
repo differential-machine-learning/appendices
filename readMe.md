@@ -29,10 +29,6 @@ The Risk paper or the complements do not cover AAD. Readers are referred to the 
 
 The video tutorial below introduces its core ideas in 15 minutes (click on the picture to play). The slides are available [here](https://drive.google.com/file/d/1dJz7c4fe7bAkfRX3ntv3vyx_VNfFMOsO/view).
 
-<p align="center">
-  
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=IcQkwgPwfm4
+<p align="center"> <a href="http://www.youtube.com/watch?feature=player_embedded&v=IcQkwgPwfm4
 " target="_blank"><img src="http://img.youtube.com/vi/IcQkwgPwfm4/0.jpg" 
-alt="AAD explained in 15 minutes by Antoine Savine"  /></a>  
-
-</p>
+alt="AAD explained in 15 minutes by Antoine Savine"  /></a>   </p>
