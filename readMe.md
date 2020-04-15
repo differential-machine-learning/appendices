@@ -18,9 +18,7 @@ Introduced to finance by the ground breaking *Smoking Adjoints* (Giles and Glass
 
 AAD arguably constitutes the most significant progress in computation finance of the past 20 years. It gave us real-time risk reports for complex Derivatives trading books and regulations like XVA, and instantaneous calibration. It made differentials massively available for research and development in finance. Quoting the conclusion of our Wilmott piece *Computation graphs for AAD and Machine Learning parts 1, 2 and 3* (Savine, Wilmott Magazine, 2019-2020):
 
-*
-New implementations of AAD are pushing the limits of its efficiency, while quantitative analysts are leveraging them in unexpected ways, besides the evident application to risk sensitivities or calibration
-*
+*New implementations of AAD are pushing the limits of its efficiency, while quantitative analysts are leveraging them in unexpected ways, besides the evident application to risk sensitivities or calibration.*
 
 To a large extent, differential machine learning is another strong application of AAD. It is AAD that gave us the massive number of accurate differentials necessary to implement it, for a very cheap computation cost, and is ultimately responsible for its spectacular performance improvement. 
 
