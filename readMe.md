@@ -8,6 +8,9 @@ These documents complement the paper *Learning the Shape: Differential Machine L
 
 We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details. 
 
+[github.com/differential-machine-learning](https://github.com/differential-machine-learning)
+<img src="differential.png">
+
 ***Automatic Adjoint Differentiation (AAD)***
 
 Everything in the Risk paper and its complements relies on *differential labels*, the gradients of training labels to training inputs, fed to the machine learning model in an augmented dataset. We have seen that training on differentials offers a massive performance improvement, but, of course, the differential labels must be computed first.
@@ -31,18 +34,5 @@ The video tutorial below introduces its core ideas in 15 minutes (click on the p
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=IcQkwgPwfm4
 " target="_blank"><img src="http://img.youtube.com/vi/IcQkwgPwfm4/0.jpg" 
 alt="AAD explained in 15 minutes by Antoine Savine" width="240" height="180" border="10" /></a>  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-[![Watch the video](https://img.youtube.com/vi/IcQkwgPwfm4/maxresdefault.jpg)](https://youtu.be/IcQkwgPwfm4)
 
 </p>
-
-[github.com/differential-machine-learning](https://github.com/differential-machine-learning)
-<img src="differential.png">
