@@ -28,7 +28,7 @@ The video tutorial below introduces its core ideas in 15 minutes (click on the p
 
 <p align="center">
   
-[![Watch the video](https://img.youtube.com/vi/IcQkwgPwfm4/maxresdefault.jpg)](https://youtu.be/IcQkwgPwfm4)
+![Watch the video](https://img.youtube.com/vi/IcQkwgPwfm4/maxresdefault.jpg)](https://youtu.be/IcQkwgPwfm4)
 
 </p>
 
