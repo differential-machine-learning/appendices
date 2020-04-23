@@ -3,6 +3,7 @@
 
 These documents complement the paper *Learning the Shape: Differential Machine Learning* by Brian Huge and Antoine Savine (Risk, 2020), including mathematical proofs, various extensions and considerations for an implementation in production.
 
+[**App1-LSM.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App1-LSM.pdf.pdf) recalls the details of the classic Least Square Method (LSM) of Longstaff-Schwartz (2001) and formalizes it in machine learning terms. The convergence of approximators trained on LSM datasets is demonstrated with both standard and differential training. 
 
 [**DifferentialRegression.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/DifferentialRegression.pdf) derives the svd regression formulas for standard, ridge and differential regression, based on eigenvalue decomposition. These formulas are implemented verbatim in the notebook [DifferentialRegression.ipynb](https://github.com/differential-machine-learning/notebooks/blob/master/DifferentialRegression.ipynb).
 
