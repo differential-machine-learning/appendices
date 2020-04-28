@@ -5,7 +5,9 @@ These documents complement the paper *Learning the Shape: Differential Machine L
 
 [**App1-LSM.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App1-LSM.pdf) recalls the details of the classic Least Square Method (LSM) of Longstaff-Schwartz (2001) and formalizes it in machine learning terms. The convergence of approximators trained on LSM datasets is demonstrated with both standard and differential training. 
 
-[**DifferentialRegression.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/DifferentialRegression.pdf) derives the svd regression formulas for standard, ridge and differential regression, based on eigenvalue decomposition. These formulas are implemented verbatim in the notebook [DifferentialRegression.ipynb](https://github.com/differential-machine-learning/notebooks/blob/master/DifferentialRegression.ipynb).
+[**App1-Preprocessing.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App1-LSM.pdf) discusses data preparation in the context of differential deep learning, and introduces differential PCA, a powerful algorithm capable of significantly improving training with appropriate preparation, and also useful in its own right, e.g. in finance, where differential PCA provides an effective latent representation of the *risk factors* of a given transaction from simulated data alone.
+
+[**DifferentialRegression.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App2-Preprocessing.pdf) derives the svd regression formulas for standard, ridge and differential regression, based on eigenvalue decomposition. These formulas are implemented verbatim in the notebook [DifferentialRegression.ipynb](https://github.com/differential-machine-learning/notebooks/blob/master/DifferentialRegression.ipynb).
 
 We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details. 
 
