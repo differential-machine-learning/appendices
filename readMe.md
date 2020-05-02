@@ -9,7 +9,7 @@ These documents complement the working paper *Differential Machine Learning* by 
 
 [**App3-Regression.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App3-Regression.pdf) derives the svd regression formulas for standard, ridge and differential regression, based on eigenvalue decomposition. These formulas are implemented verbatim in the notebook [DifferentialRegression.ipynb](https://github.com/differential-machine-learning/notebooks/blob/master/DifferentialRegression.ipynb).
 
-[**App4-UnsupervisedTraining.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App3-Regression.pdf) addresses the important matter of an automated implementation of training algorithms in production systems, in particular it establishes worst case convergence guarantees and asymptotic control necessary for training a special breed of neural networks *without supervision*.
+[**App4-UnsupervisedTraining.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App4-UnsupervisedTraining.pdf) addresses the important matter of an automated implementation of training algorithms in production systems, in particular it establishes worst case convergence guarantees and asymptotic control necessary for training a special breed of neural networks *without supervision*.
 
 We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details. 
 
