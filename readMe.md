@@ -1,13 +1,15 @@
 # appendices
 ---
 
-These documents complement the paper *Learning the Shape: Differential Machine Learning* by Brian Huge and Antoine Savine (Risk, 2020), including mathematical proofs, various extensions and considerations for an implementation in production.
+These documents complement the working paper *Differential Machine Learning* by Brian Huge and Antoine Savine (2020), including mathematical proofs, various extensions and considerations for an implementation in production.
 
 [**App1-LSM.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App1-LSM.pdf) recalls the details of the classic Least Square Method (LSM) of Longstaff-Schwartz (2001) and formalizes it in machine learning terms. The convergence of approximators trained on LSM datasets is demonstrated with both standard and differential training. 
 
 [**App2-Preprocessing.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App2-Preprocessing.pdf) discusses data preparation in the context of differential deep learning, and introduces differential PCA, a powerful algorithm capable of significantly improving training with appropriate preparation, and also useful in its own right, e.g. in finance, where differential PCA provides an effective latent representation of the *risk factors* of a given transaction from simulated data alone.
 
 [**App3-Regression.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App3-Regression.pdf) derives the svd regression formulas for standard, ridge and differential regression, based on eigenvalue decomposition. These formulas are implemented verbatim in the notebook [DifferentialRegression.ipynb](https://github.com/differential-machine-learning/notebooks/blob/master/DifferentialRegression.ipynb).
+
+[**App4-UnsupervisedTraining.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App3-Regression.pdf) addresses the important matter of an automated implementation of training algorithms in production systems, in particular it establishes worst case convergence guarantees and asymptotic control necessary for training a special breed of neural networks *without supervision*.
 
 We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details. 
 
@@ -17,7 +19,7 @@ We also posted [here](https://differential-machine-learning.github.io/notebooks/
 # Automatic Adjoint Differentiation (AAD)
 ---
 
-Everything in the Risk paper and its complements relies on *differential labels*, the gradients of training labels to training inputs, fed to the machine learning model in an augmented dataset. We have seen that training on differentials offers a massive performance improvement, but, of course, the differential labels must be computed first.
+Everything in the working paper and its complements relies on *differential labels*, the gradients of training labels to training inputs, fed to the machine learning model in an augmented dataset. We have seen that training on differentials offers a massive performance improvement, but, of course, the differential labels must be computed first.
 
 In particularly simple textbook contexts, like a European call in Black & Scholes or a basket option in multi-dimensional Bachelier, differential labels are easily computed in explicit form. In low dimension, they could be computed by finite differences. In a general case with an arbitrary schedule of complex cash-flows simulated in an arbitrarily sophisticated model, closed form differentials are not available and finite differences are far too slow. In dimension 100, every training example must be computed 101 times to estimate differentials by finite differences. In addition, differentials approximated by finite differences may not be accurate enough for the purpose of training: we don't want the optimizer chasing imprecise differentials.
 
