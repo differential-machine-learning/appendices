@@ -31,11 +31,9 @@ AAD arguably constitutes the most significant progress in computational finance 
 
 To a large extent, differential machine learning is another strong application of AAD. It is AAD that gave us the massive number of accurate differentials necessary to implement it, for a very cheap computation cost, and is ultimately responsible for the spectacular performance improvement. The real-world examples in the Risk paper, sections 3.2 and 3.3, were trained on AAD differential labels.
 
-The Risk paper or the complements do not cover AAD. Readers are referred to the (stellar) founding paper. [This textbook](https://www.amazon.com/Modern-Computational-Finance-Parallel-Simulations-dp-1119539455/dp/1119539455) provides a complete, up to date overview of AAD, its applications in finance, and a complete, professional implementation in modern C++.
+The working paper or the complements do not cover AAD. Readers are referred to the (stellar) founding paper. [This textbook](https://www.amazon.com/Modern-Computational-Finance-Parallel-Simulations-dp-1119539455/dp/1119539455) provides a complete, up to date overview of AAD, its applications in finance, and a complete, professional implementation in modern C++.
 
-The video tutorial below introduces the core ideas in 15 minutes (click on the picture to play). The slides are available [here](https://drive.google.com/file/d/1dJz7c4fe7bAkfRX3ntv3vyx_VNfFMOsO/view).
+The video tutorial below introduces the core ideas in 15 minutes. Click on the picture to play. 
 
-'''
-<blockquote class="embedly-card"><h4><a href="https://towardsdatascience.com/automatic-differentiation-15min-video-tutorial-with-application-in-machine-learning-and-finance-333e18c0ecbb">Automatic Differentiation Explained in 15min</a></h4><p>I have given many lectures and professional presentations on automatic differentiation (AAD) in the past five years. I even wrote a book about it. What many students, academics and professionals found most useful is a 15min tutorial recorded in Bloomberg's London offices in November 2019.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-'''
+[<img src="https://miro.medium.com/max/1400/1*bHsIA1jy08p71uZcg8HiIQ.png" />](https://towardsdatascience.com/automatic-differentiation-15min-video-tutorial-with-application-in-machine-learning-and-finance-333e18c0ecbb)*Towards Data Science: AAD Explained in 15min*
+
