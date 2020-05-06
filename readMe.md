@@ -1,7 +1,7 @@
 # appendices
 ---
 
-These documents complement the working paper [Differential Machine Learning](https://sites.google.com/view/differential-machine-learning) by Brian Huge and [Antoine Savine](https://antoinesavine.com) (2020), including mathematical proofs, various extensions and considerations for an implementation in production.
+These documents complement the working paper [Differential Machine Learning](https://arxiv.org/abs/2005.02347) by Brian Huge and [Antoine Savine](https://antoinesavine.com) (2020), including mathematical proofs, various extensions and considerations for an implementation in production.
 
 [**App1-LSM.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App1-LSM.pdf) recalls the details of the classic Least Square Method (LSM) of Longstaff-Schwartz (2001) and formalizes it in machine learning terms. The convergence of approximators trained on LSM datasets is demonstrated with both standard and differential training. 
 
@@ -35,6 +35,9 @@ The Risk paper or the complements do not cover AAD. Readers are referred to the 
 
 The video tutorial below introduces the core ideas in 15 minutes (click on the picture to play). The slides are available [here](https://drive.google.com/file/d/1dJz7c4fe7bAkfRX3ntv3vyx_VNfFMOsO/view).
 
-<p align="center"> <a href="http://www.youtube.com/watch?feature=player_embedded&v=IcQkwgPwfm4
-" target="_blank"><img src="http://img.youtube.com/vi/IcQkwgPwfm4/0.jpg" 
-alt="AAD explained in 15 minutes by Antoine Savine"  /></a>   </p>
+<p align="center"> 
+
+<blockquote class="embedly-card"><h4><a href="https://towardsdatascience.com/automatic-differentiation-15min-video-tutorial-with-application-in-machine-learning-and-finance-333e18c0ecbb">Automatic Differentiation Explained in 15min</a></h4><p>I have given many lectures and professional presentations on automatic differentiation (AAD) in the past five years. I even wrote a book about it. What many students, academics and professionals found most useful is a 15min tutorial recorded in Bloomberg's London offices in November 2019.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+</p>
