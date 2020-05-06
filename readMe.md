@@ -41,3 +41,21 @@ The video tutorial below introduces the core ideas in 15 minutes (click on the p
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 </p>
+
+
+```html
+<h2>Example of code</h2>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            <blockquote class="embedly-card"><h4><a href="https://towardsdatascience.com/automatic-differentiation-15min-video-tutorial-with-application-in-machine-learning-and-finance-333e18c0ecbb">Automatic Differentiation Explained in 15min</a></h4><p>I have given many lectures and professional presentations on automatic differentiation (AAD) in the past five years. I even wrote a book about it. What many students, academics and professionals found most useful is a 15min tutorial recorded in Bloomberg's London offices in November 2019.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+            </div>
+        </div>
+    </div>
+</pre>
+```
