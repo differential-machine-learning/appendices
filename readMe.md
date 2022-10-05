@@ -11,7 +11,7 @@ These documents complement the working paper [Differential Machine Learning](htt
 
 [**App4-UnsupervisedTraining.pdf**](https://github.com/differential-machine-learning/appendices/blob/master/App4-UnsupervisedTraining.pdf) addresses the important matter of an automated implementation of training algorithms in production systems, in particular it establishes worst case convergence guarantees and asymptotic control necessary for training a special breed of neural networks *without supervision*.
 
-We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details. 
+We also posted [here](https://differential-machine-learning.github.io/notebooks/) a working TensorFlow implementation, along with extensions and practical implementation details.
 
 [github.com/differential-machine-learning](https://github.com/differential-machine-learning)
 <img src="differential.png">
